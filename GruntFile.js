@@ -4,7 +4,7 @@ module.exports = function(grunt) {
   grunt.initConfig({
     'babel': {
       options: {        
-        'optional': [ 'es7.asyncFunctions' ]
+        'optional': [ 'es7.asyncFunctions', 'runtime' ],        
       },
       dist: {
         files: [{
